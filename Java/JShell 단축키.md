@@ -15,5 +15,6 @@ bck-i-search: _
 > System.out.println("Output");
 bck-i-search: S_
 ```
+  → 검색 결과가 떠있는 상태에서 `Enter` 키를 누르면 검색 결과가 입력된다<br/><br/>
 
-- 검색 결과가 떠있는 상태에서 `Enter` 키를 누르면 검색 결과가 입력된다
+`Ctrl` + `L` : 화면 지우기
