@@ -30,15 +30,15 @@ Scanner를 통해 값의 출처를 정할 수 있는데, 우리는 사용자의 
 ```java
 public static void main(String[] args) {
 
-		// Type obj = new Type(argument);
-		Scanner scanner = new Scanner(System.in);
+    // Type obj = new Type(argument);
+    Scanner scanner = new Scanner(System.in);
+    
+    System.out.println("Enter... Number1: ");
+    int number1 = scanner.nextInt();
+    
+    System.out.println("The number you entered is - " + number1);
 
-		System.out.println("Enter... Number1: ");
-		int number1 = **scanner.nextInt();**
-
-		System.out.println("The number you entered is - " + number1);
-
-	}
+}
 ```
 
 `scanner.nextInt();`는 정수값을 읽는다.
