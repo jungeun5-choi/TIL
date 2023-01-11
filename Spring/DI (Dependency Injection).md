@@ -87,7 +87,7 @@ public class MemberController {
 
 💡 `**@Autowired**` : 스프링이 (스프링 컨테이너와) 연관된 객체를 찾아서 스프링 컨테이너에 넣어준다.
 
-[테스트](https://github.com/jungeun5-choi/TIL/new/main#di-dependency-injection---%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A3%BC%EC%9E%85-%EC%9D%98%EC%A1%B4%EA%B4%80%EA%B3%84-%EC%A3%BC%EC%9E%85)에서는 개발자가 명시적으로 의존성을 주입했고, 여기서는 `@Autowired`에 의해 스프링이 의존성을 주입했다.
+[테스트](https://github.com/jungeun5-choi/TIL/blob/main/Spring/DI%20(Dependency%20Injection).md#di-dependency-injection---%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A3%BC%EC%9E%85-%EC%9D%98%EC%A1%B4%EA%B4%80%EA%B3%84-%EC%A3%BC%EC%9E%85)에서는 개발자가 명시적으로 의존성을 주입했고, 여기서는 `@Autowired`에 의해 스프링이 의존성을 주입했다.
 
 <br/>
 
