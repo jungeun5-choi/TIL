@@ -6,6 +6,7 @@
 
 `final` 키워드를 잊지 말자!
 
+```java
 final int COST = 10000;
 final String TAG = "MELON";
 ```
