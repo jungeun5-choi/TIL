@@ -109,7 +109,7 @@ public class PracticeException {
 
 [여기](https://programming.guide/java/list-of-java-exceptions.html)에서 더 많은 `Exception의 구현체 클래스`들을 확인할 수 있다.
 
-모두 익힐 필요는 없고, 기능이 필요할 때마다 필요할 때마다 참고하여 적절하게 사용하자. 특정 에러(예외)를 구체화하고 싶다면 [위의 예시처럼](https://velog.io/@temprmn/Java-%EC%98%88%EC%99%B8Exception#%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC-%ED%9D%90%EB%A6%84) 직접 `정의`하고 `구현`하면 된다. 
+모두 익힐 필요는 없고, 기능이 필요할 때마다 필요할 때마다 참고하여 적절하게 사용하자. 특정 에러(예외)를 구체화하고 싶다면 [위의 예시처럼](https://github.com/jungeun5-choi/TIL/blob/c7e432faeff0d340bfbd805eee94e6652e38f1e6/Java/%EC%98%88%EC%99%B8(Exception).md#%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC-%ED%9D%90%EB%A6%84) 직접 `정의`하고 `구현`하면 된다. 
 
 ### Chained Exception: 연결된 예외
 예외는 또 다른 예외를 유발할 수 있다. 그래서 예외를 연결(chaining) 할 수 있는 것이다. 
@@ -133,7 +133,7 @@ e.initCause();
 e.initCause().printStackTrace(); // 원인 조회 후 출력
 ```
 
-예제를 살펴보자. 전체적인 흐름은 [위의 예시](https://velog.io/@temprmn/Java-%EC%98%88%EC%99%B8Exception#%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC-%ED%9D%90%EB%A6%84)와 유사하다.
+예제를 살펴보자. 전체적인 흐름은 [위의 예시](https://github.com/jungeun5-choi/TIL/blob/c7e432faeff0d340bfbd805eee94e6652e38f1e6/Java/%EC%98%88%EC%99%B8(Exception).md#%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC-%ED%9D%90%EB%A6%84)와 유사하다.
 ```java
 public class Main {
 
